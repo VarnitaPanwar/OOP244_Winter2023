@@ -1,0 +1,17 @@
+/***********************************************************************
+// OOP244 Workshop 5 Part2: Operators
+// File reflect.txt
+// Version 1.0
+// Date	02/20/2023
+// Author Varnita Panwar
+// Description
+// Tests the Bus module
+//
+// Revision History
+// -----------------------------------------------------------
+// Name            Date            Reason
+//
+/////////////////////////////////////////////////////////////////
+***********************************************************************/
+
+Operator overloading is a difficult concept in object-oriented programming. It involves using the same symbol for an operator to perform different actions based on the operands. It takes time to fully understand this concept and to use it without affecting the original value. The workshop helped to clarify this topic, but it still requires practice and review to master. Part 1 was challenging because it required understanding the logic behind the operator to produce the correct output. For example, the operator += in binary testing required a deep understanding of its function to display the expected result. However, after practicing with part 1, part 2 became easier and quicker to complete.
