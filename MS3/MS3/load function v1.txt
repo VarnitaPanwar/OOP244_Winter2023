@@ -1,0 +1,107 @@
+if (in)
+		{
+			errorState.clear();
+
+			//char itemTypeLocal;
+			char skuLocal[MAX_SKU_LEN + 1];
+			char* nameLocal = nullptr;
+			double priceLocal;
+			bool taxedLocal;
+			int _quantityLocal;
+
+			char line[256];
+			in.getline(line, 256);
+			//cout << line << endl;
+
+			char* token = strtok(line, ",");
+
+			//itemTypeLocal = token[0];
+			//cout << token << endl;
+			//cout << itemTypeLocal << endl;
+			//token = strtok(NULL, ",");
+
+
+			/*if (token)
+			{
+				strcpy(skuLocal, token);
+			}*/
+			strcpy(skuLocal, token);
+			//cout << token << endl;
+			//cout << skuLocal << endl;
+			token = strtok(NULL, ",");
+
+			/*if (token)
+			{
+				nameLocal = new char[strlen(token) + 1];
+				strcpy(nameLocal, token);
+			}*/
+			nameLocal = new char[strlen(token) + 1];
+			strcpy(nameLocal, token);
+			//cout << token << endl;
+			//cout << nameLocal << endl;
+			token = strtok(NULL, ",");
+
+			/*if (token)
+			{
+				priceLocal = atof(token);
+			}*/
+			priceLocal = atof(token);
+			//cout << token << endl;
+			//cout << priceLocal << endl;
+			token = strtok(NULL, ",");
+
+			/*if (token)
+			{
+				taxedLocal = atoi(token);
+			}*/
+			taxedLocal = atoi(token);
+			//cout << token << endl;
+			//cout << taxedLocal << endl;
+			token = strtok(NULL, ",");
+
+			/*if (token)
+			{
+				_quantityLocal = atoi(token);
+			}*/
+			_quantityLocal = atoi(token);
+			//cout << token << endl;
+			//cout << _quantityLocal << endl;
+			//token = strtok(NULL, ",");
+
+			if (!(in.fail()))
+			{
+				if (strlen(skuLocal) > MAX_SKU_LEN)
+				{
+					errorState = ERROR_POS_SKU;
+				}
+				else if (strlen(nameLocal) > MAX_NAME_LEN)
+				{
+					errorState = ERROR_POS_NAME;
+				}
+				else if (priceLocal <= 0)
+				{
+					errorState = ERROR_POS_PRICE;
+				}
+				else if (_quantityLocal <= 0 || _quantityLocal > MAX_STOCK_NUMBER)
+				{
+					errorState = ERROR_POS_QTY;
+				}
+			}
+
+			if (!errorState)
+			{
+				strcpy(sku, skuLocal);
+
+				if (name)
+				{
+					delete[] name;
+				}
+				name = new char[strlen(nameLocal) + 1];
+				strcpy(name, nameLocal);
+				delete[] nameLocal;
+
+				price = priceLocal;
+				taxed = taxedLocal;
+				_quantity = _quantityLocal;
+			}
+		}
