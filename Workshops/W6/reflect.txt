@@ -1,0 +1,36 @@
+/***********************************************************************
+// OOP244 Workshop w6
+//
+// 
+// Version 1.0
+// Date  03/11/2023
+// Author Varnita Panwar
+// Section OOP244-NDD
+// Seneca ID   : 166484212
+// Seneca email: vpanwar1@myseneca.ca
+//
+// I have done all the coding by myself and only copied the code that
+// my professor provided to complete my workshops and assignments.
+//
+// Revision History
+// -----------------------------------------------------------
+// Name            Date            Reason
+/////////////////////////////////////////////////////////////////
+***********************************************************************/
+
+
+
+
+In completing this workshop, I have learned several topics related to object-oriented programming in C++. Specifically, I have learned about classes, objects, constructors, destructors, copy constructors, copy assignment operators, namespaces, and file input/output operations.
+
+Classes provide a blueprint for creating objects, and they encapsulate data and functions into a single entity. Objects are instances of classes, and they can be created using constructors. Constructors are special member functions that are called when an object is created, and they are used to initialize the object's data members. Destructors are also special member functions, and they are called when an object is destroyed. They are used to free up any resources that the object has acquired during its lifetime.
+
+Copy constructors and copy assignment operators are used to create copies of objects. Copy constructors are called when a new object is created as a copy of an existing object, while copy assignment operators are called when an existing object is assigned the value of another existing object. Namespaces are used to group related functions and classes together, and they help to prevent naming conflicts.
+
+File input/output operations are used to read and write data from and to files. In this workshop, I have learned about the ifstream and ofstream classes, which are used to read and write data from and to files, respectively. I have also learned about the getline function, which is used to read a line of text from a file.
+
+One issue that caused me difficulty was understanding the purpose and implementation of the bool conversion operator in the Numbers class. Initially, I had difficulty understanding why a conversion operator was needed, but after reviewing the class implementation and its usage in the driver program, I was able to understand its purpose.
+
+
+
+
