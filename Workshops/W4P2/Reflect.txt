@@ -1,0 +1,18 @@
+/***********************************************************************
+// OOP244 Workshop 4 Part2
+// File Reflect.txt
+// Version 1.0
+// Date	Feb 15 2023
+// Author Varnita Panwar
+// Description
+//
+//
+// Revision History
+// -----------------------------------------------------------
+// Name            Date            Reason
+//
+/////////////////////////////////////////////////////////////////
+***********************************************************************/
+
+
+Upon reflection, I view this workshop as an excellent opportunity to assess my progress. While I am not particularly adept at coding, logical reasoning, or fully grasping all OOP concepts, I am confident in my ability to articulate my thoughts in writing. In other words, I take pleasure in expressing myself on paper. The most intricate and challenging aspect of this workshop, in my opinion, is memory. Each time I work on it, I become anxious as the program often launches unexpectedly due to memory issues. Therefore, I have invested considerable time into understanding the workings and flow of memory. Although I didn't complete this part due to some issues with part 1, I am grateful that it's not mandatory to turn it in. As a result, I have put extra effort into part 2. In general, I wouldn't classify this workshop as easy or difficult. The "print" function was the most demanding segment, and it took me a considerable amount of time to master. Additionally, the "read" section required both logical reasoning and memory comprehension, making it equally challenging. To summarize, I believe that attending this workshop has provided me with a better understanding of several concepts, including constructors, overloading, and deconstructors.

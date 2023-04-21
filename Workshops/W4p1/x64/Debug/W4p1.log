@@ -1,0 +1,99 @@
+﻿  main.cpp
+C:\Users\User\source\repos\W4p1\main.cpp(23,21): error C2871: 'sdds': a namespace with this name does not exist
+C:\Users\User\source\repos\W4p1\main.cpp(42,2): error C2065: 'SoccerTeam': undeclared identifier
+C:\Users\User\source\repos\W4p1\main.cpp(42,13): error C2146: syntax error: missing ';' before identifier 'st1'
+C:\Users\User\source\repos\W4p1\main.cpp(42,13): error C2065: 'st1': undeclared identifier
+C:\Users\User\source\repos\W4p1\main.cpp(42,17): error C2059: syntax error: ']'
+C:\Users\User\source\repos\W4p1\main.cpp(42,21): error C2143: syntax error: missing ';' before '{'
+C:\Users\User\source\repos\W4p1\main.cpp(43,3): error C3861: 'SoccerTeam': identifier not found
+C:\Users\User\source\repos\W4p1\main.cpp(44,3): error C3861: 'SoccerTeam': identifier not found
+C:\Users\User\source\repos\W4p1\main.cpp(45,3): error C3861: 'SoccerTeam': identifier not found
+C:\Users\User\source\repos\W4p1\main.cpp(46,2): error C2143: syntax error: missing ';' before '}'
+C:\Users\User\source\repos\W4p1\main.cpp(52,3): error C2065: 'st1': undeclared identifier
+C:\Users\User\source\repos\W4p1\main.cpp(55,2): error C2065: 'Tournament': undeclared identifier
+C:\Users\User\source\repos\W4p1\main.cpp(55,13): error C2146: syntax error: missing ';' before identifier 't'
+C:\Users\User\source\repos\W4p1\main.cpp(55,13): error C2065: 't': undeclared identifier
+C:\Users\User\source\repos\W4p1\main.cpp(55,15): error C2059: syntax error: ']'
+C:\Users\User\source\repos\W4p1\main.cpp(55,19): error C2143: syntax error: missing ';' before '{'
+C:\Users\User\source\repos\W4p1\main.cpp(56,3): error C3861: 'Tournament': identifier not found
+C:\Users\User\source\repos\W4p1\main.cpp(57,24): error C2065: 'st1': undeclared identifier
+C:\Users\User\source\repos\W4p1\main.cpp(57,3): error C3861: 'Tournament': identifier not found
+C:\Users\User\source\repos\W4p1\main.cpp(58,24): error C2065: 'st1': undeclared identifier
+C:\Users\User\source\repos\W4p1\main.cpp(58,3): error C3861: 'Tournament': identifier not found
+C:\Users\User\source\repos\W4p1\main.cpp(59,2): error C2143: syntax error: missing ';' before '}'
+C:\Users\User\source\repos\W4p1\main.cpp(64,3): error C2065: 't': undeclared identifier
+C:\Users\User\source\repos\W4p1\main.cpp(67,2): error C2065: 'SoccerTeam': undeclared identifier
+C:\Users\User\source\repos\W4p1\main.cpp(67,13): error C2146: syntax error: missing ';' before identifier 'st2'
+C:\Users\User\source\repos\W4p1\main.cpp(67,13): error C2065: 'st2': undeclared identifier
+C:\Users\User\source\repos\W4p1\main.cpp(67,17): error C2059: syntax error: ']'
+C:\Users\User\source\repos\W4p1\main.cpp(67,21): error C2143: syntax error: missing ';' before '{'
+C:\Users\User\source\repos\W4p1\main.cpp(68,3): error C3861: 'SoccerTeam': identifier not found
+C:\Users\User\source\repos\W4p1\main.cpp(69,3): error C3861: 'SoccerTeam': identifier not found
+C:\Users\User\source\repos\W4p1\main.cpp(70,2): error C2143: syntax error: missing ';' before '}'
+C:\Users\User\source\repos\W4p1\main.cpp(72,2): error C2065: 'Tournament': undeclared identifier
+C:\Users\User\source\repos\W4p1\main.cpp(72,13): error C2146: syntax error: missing ';' before identifier 't1'
+C:\Users\User\source\repos\W4p1\main.cpp(72,40): error C2065: 'st2': undeclared identifier
+C:\Users\User\source\repos\W4p1\main.cpp(72,13): error C3861: 't1': identifier not found
+C:\Users\User\source\repos\W4p1\main.cpp(74,2): error C2065: 't1': undeclared identifier
+C:\Users\User\source\repos\W4p1\main.cpp(77,6): error C2065: 't1': undeclared identifier
+C:\Users\User\source\repos\W4p1\main.cpp(77,15): error C2065: 'st2': undeclared identifier
+C:\Users\User\source\repos\W4p1\main.cpp(79,3): error C2065: 't1': undeclared identifier
+C:\Users\User\source\repos\W4p1\main.cpp(83,6): error C2065: 't1': undeclared identifier
+C:\Users\User\source\repos\W4p1\main.cpp(83,15): error C2065: 'st2': undeclared identifier
+C:\Users\User\source\repos\W4p1\main.cpp(85,3): error C2065: 't1': undeclared identifier
+C:\Users\User\source\repos\W4p1\main.cpp(89,6): error C2065: 't1': undeclared identifier
+C:\Users\User\source\repos\W4p1\main.cpp(89,15): error C2065: 'st2': undeclared identifier
+C:\Users\User\source\repos\W4p1\main.cpp(91,3): error C2065: 't1': undeclared identifier
+  SoccerTeam.cpp
+  Tournament.cpp
+C:\Users\User\source\repos\W4p1\Tournament.cpp(25,21): error C2871: 'sdds': a namespace with this name does not exist
+C:\Users\User\source\repos\W4p1\Tournament.cpp(29,2): error C2653: 'Tournament': is not a class or namespace name
+C:\Users\User\source\repos\W4p1\Tournament.cpp(29,27): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\User\source\repos\W4p1\Tournament.cpp(30,3): error C3861: 'setEmpty': identifier not found
+C:\Users\User\source\repos\W4p1\Tournament.cpp(31,2): warning C4508: 'sdds::Tournament': function should return a value; 'void' return type assumed
+C:\Users\User\source\repos\W4p1\Tournament.cpp(32,2): error C2653: 'Tournament': is not a class or namespace name
+C:\Users\User\source\repos\W4p1\Tournament.cpp(32,57): error C2061: syntax error: identifier 'SoccerTeam'
+C:\Users\User\source\repos\W4p1\Tournament.cpp(32,77): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\User\source\repos\W4p1\Tournament.cpp(33,33): error C2065: 'soccer': undeclared identifier
+C:\Users\User\source\repos\W4p1\Tournament.cpp(33,3): error C3861: 'setTournament': identifier not found
+C:\Users\User\source\repos\W4p1\Tournament.cpp(34,2): warning C4508: 'sdds::Tournament': function should return a value; 'void' return type assumed
+C:\Users\User\source\repos\W4p1\Tournament.cpp(35,2): error C2653: 'Tournament': is not a class or namespace name
+C:\Users\User\source\repos\W4p1\Tournament.cpp(35,28): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\User\source\repos\W4p1\Tournament.cpp(35,25): error C2084: function 'int sdds::Tournament(void)' already has a body
+C:\Users\User\source\repos\W4p1\Tournament.cpp(29,14): message : see previous definition of 'Tournament'
+C:\Users\User\source\repos\W4p1\Tournament.cpp(36,12): error C2065: 'm_soccer': undeclared identifier
+C:\Users\User\source\repos\W4p1\Tournament.cpp(36,20): error C2541: 'delete': cannot delete objects that are not pointers
+C:\Users\User\source\repos\W4p1\Tournament.cpp(37,3): error C3861: 'setEmpty': identifier not found
+C:\Users\User\source\repos\W4p1\Tournament.cpp(39,7): error C2653: 'Tournament': is not a class or namespace name
+C:\Users\User\source\repos\W4p1\Tournament.cpp(39,81): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\User\source\repos\W4p1\Tournament.cpp(39,81): error C2143: syntax error: missing ',' before '*'
+C:\Users\User\source\repos\W4p1\Tournament.cpp(40,61): error C2065: 'soccer': undeclared identifier
+C:\Users\User\source\repos\W4p1\Tournament.cpp(42,4): error C2065: 'm_num': undeclared identifier
+C:\Users\User\source\repos\W4p1\Tournament.cpp(43,4): error C2065: 'm_soccer': undeclared identifier
+C:\Users\User\source\repos\W4p1\Tournament.cpp(43,19): error C2061: syntax error: identifier 'SoccerTeam'
+C:\Users\User\source\repos\W4p1\Tournament.cpp(46,5): error C2065: 'm_soccer': undeclared identifier
+C:\Users\User\source\repos\W4p1\Tournament.cpp(46,19): error C2065: 'soccer': undeclared identifier
+C:\Users\User\source\repos\W4p1\Tournament.cpp(51,4): error C3861: 'setEmpty': identifier not found
+C:\Users\User\source\repos\W4p1\Tournament.cpp(54,7): error C2653: 'Tournament': is not a class or namespace name
+C:\Users\User\source\repos\W4p1\Tournament.cpp(55,3): error C2065: 'm_name': undeclared identifier
+C:\Users\User\source\repos\W4p1\Tournament.cpp(56,3): error C2065: 'm_soccer': undeclared identifier
+C:\Users\User\source\repos\W4p1\Tournament.cpp(57,3): error C2065: 'm_num': undeclared identifier
+C:\Users\User\source\repos\W4p1\Tournament.cpp(59,7): error C2653: 'Tournament': is not a class or namespace name
+C:\Users\User\source\repos\W4p1\Tournament.cpp(59,34): error C2270: 'isEmpty': modifiers not allowed on nonmember functions
+C:\Users\User\source\repos\W4p1\Tournament.cpp(60,10): error C2065: 'm_name': undeclared identifier
+C:\Users\User\source\repos\W4p1\Tournament.cpp(61,7): error C2065: 'm_soccer': undeclared identifier
+C:\Users\User\source\repos\W4p1\Tournament.cpp(62,7): error C2065: 'm_num': undeclared identifier
+C:\Users\User\source\repos\W4p1\Tournament.cpp(65,12): error C2143: syntax error: missing ';' before '&'
+C:\Users\User\source\repos\W4p1\Tournament.cpp(65,12): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\User\source\repos\W4p1\Tournament.cpp(65,2): error C2365: 'sdds::Tournament': redefinition; previous definition was 'function'
+C:\Users\User\source\repos\W4p1\Tournament.cpp(65,14): error C2653: 'Tournament': is not a class or namespace name
+C:\Users\User\source\repos\W4p1\Tournament.cpp(65,48): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\User\source\repos\W4p1\Tournament.cpp(65,48): error C2143: syntax error: missing ',' before '*'
+C:\Users\User\source\repos\W4p1\Tournament.cpp(65,54): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\User\source\repos\W4p1\Tournament.cpp(65,54): error C2059: syntax error: '{'
+C:\Users\User\source\repos\W4p1\Tournament.cpp(65,54): error C2143: syntax error: missing ';' before '{'
+C:\Users\User\source\repos\W4p1\Tournament.cpp(65,54): error C2447: '{': missing function header (old-style formal list?)
+C:\Users\User\source\repos\W4p1\Tournament.cpp(80,16): error C2653: 'Tournament': is not a class or namespace name
+C:\Users\User\source\repos\W4p1\Tournament.cpp(80,43): error C2270: 'display': modifiers not allowed on nonmember functions
+  Tournment.cpp
+  Generating Code...
