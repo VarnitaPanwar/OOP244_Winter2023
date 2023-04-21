@@ -1,0 +1,2 @@
+﻿w1p1.obj : error LNK2005: main already defined in 50Best.obj
+C:\Users\User\source\repos\W1P1\x64\Debug\W1P1.exe : fatal error LNK1169: one or more multiply defined symbols found

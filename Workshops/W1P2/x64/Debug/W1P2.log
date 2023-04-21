@@ -1,0 +1,4 @@
+﻿MSVCRTD.lib(exe_main.obj) : error LNK2019: unresolved external symbol main referenced in function "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+    Hint on symbols that are defined and could potentially match:
+      "int __cdecl sdds::main(void)" (?main@sdds@@YAHXZ)
+C:\Users\User\source\repos\W1P2\x64\Debug\W1P2.exe : fatal error LNK1120: 1 unresolved externals
